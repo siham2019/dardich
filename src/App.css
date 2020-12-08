@@ -1,0 +1,21 @@
+*{
+  margin:0;
+}
+body{
+  overflow: hidden;
+}
+.app{
+  padding-top: 5%;
+  padding-left: 17%;
+  background-image:linear-gradient(to bottom right, rgb(101, 101, 211), violet);
+ 
+  height: 100vh;
+}
+.container{
+  border-radius: 3%;
+  background-color:white;
+  width: 70vw;
+  box-shadow: 5px 10px 18px #9c6395;
+  height: 80vh;
+  display: flex;
+}

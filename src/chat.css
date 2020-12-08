@@ -1,0 +1,83 @@
+.chat{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.t{
+    padding-top: 2%;
+}
+.r{
+    font-size: x-small;
+}
+.s{
+    text-align: right;
+}
+.sended{
+    margin-left: auto;
+}
+.m{
+    margin: 1%;
+}
+.sended,.recieved{
+    box-shadow: 5px 10px 19px #d3c3d1;
+
+   width: 50%;
+   padding: 1%;
+   height: 40%;
+    border-radius: 9%;
+
+}
+.sended{
+    background-color: rgb(247, 197, 234);
+}
+.recieved{
+    background-color: rgb(245, 229, 229);
+}
+.call{
+    display: flex;
+/*     justify-content: space-around;
+ */    margin: 1%;
+}
+.bull{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+.t,.avatar2{
+    margin: 1%;
+}
+.ava2{
+    border-radius: 20%;
+    background-image: url('avatar2.png');
+    width: 22%;
+    height: 90%;
+    background-size: cover;
+}
+.header{
+    border-bottom: 1px rgba(128, 128, 128, 0.418) solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+
+  height: 20%;
+}
+.send1{
+    padding: 2%;
+    display: flex;
+    background-color: #d3c3d1;
+}
+.df{
+    display: flex;
+    width: 94%;
+}
+.c{
+    border-radius: 5%;
+ width: 80%;
+}
+.chatb{
+    height: 70%;
+    overflow-y: scroll;
+     background-size: cover;
+    background-image: url("images.jpg");
+}

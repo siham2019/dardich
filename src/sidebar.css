@@ -1,0 +1,70 @@
+.Topsidebar{
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    align-items: center;
+    margin-bottom: 2%;
+    border-bottom: 1px rgba(128, 128, 128, 0.418) solid;
+}
+.msg:hover{
+    background-color: rgba(0, 0, 0, 0.164);
+   cursor: pointer;
+}
+.msg,.search{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.rooms{
+    display: flex;
+    margin-top: "5"%;
+    flex-direction: column;
+}
+.avatar2{
+    background-image: url('avatar2.png');
+    width: 17%;
+    background-size: cover;
+    
+
+}
+.fg{
+    margin: 2%;
+}
+.msg{
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.search,.search>input,.a{
+    background-color: rgba(0, 0, 0, 0.055);
+}
+.search{
+    align-items: center;
+/*     border-top: 2px rgba(128, 128, 128, 0.466) solid;
+ *//*     border-bottom: 2px grey solid;
+ */    display: flex;
+ border-radius: 5%;
+
+     padding: 3%;
+    padding-left: 5%;
+}
+.search > input{
+    outline-width: 0;
+     border: none;
+    width: 90%;
+    border-radius: 5%;
+    padding: 3%;
+}
+.sidebar{
+    overflow-y: scroll;
+    width: 30%;
+    border-bottom: 1px rgba(128, 128, 128, 0.418) solid;
+
+}
+.avatar{
+    border-radius: 40%;
+    width: 25%;
+    height: 95%;
+    background-size: cover;
+    background-image: url('myavatar.png');
+}
